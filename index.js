@@ -11,9 +11,18 @@ function map(array, func) {
 } 
 
 function reduce(array, start) {
+  
+  // Set up total variable to return
+  // If the start is defined, set the total = start, if not, make it the first value of the array
   if (!!start) {
-    let total = 
+    let total = start;
   }
+  
+  else {
+    let total = array[0];
+  }
+  
+  
   
   
   
