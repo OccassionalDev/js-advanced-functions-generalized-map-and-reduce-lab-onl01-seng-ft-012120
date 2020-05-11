@@ -22,6 +22,15 @@ function reduce(array, func, start) {
     let total = array[0];
   }
   
+  // Iterator setup
+    if (!!start) {
+    let i = start;
+  }
+  
+  else {
+    let i = array[0];
+  }
+  
   // Iterate through
   for (let i = 0; i < array.length; i++) {
     total = func(array[i]);
