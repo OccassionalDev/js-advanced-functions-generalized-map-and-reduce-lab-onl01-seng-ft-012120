@@ -22,9 +22,10 @@ function reduce(array, start) {
     let total = array[0];
   }
   
-  
-  
-  
+  // Iterate through
+  for (let i = 0; i < array.length; i++) {
+    total += array[i];
+  }
   
   return total;
 }
