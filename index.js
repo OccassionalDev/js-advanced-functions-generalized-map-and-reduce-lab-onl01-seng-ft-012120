@@ -11,7 +11,7 @@ function map(array, func) {
 } 
 
 function reduce(array, start) {
-  let total;
+  if start
   
   
   
