@@ -16,18 +16,11 @@ function reduce(array, func, start) {
   // If the start is defined, set the total = start, if not, make it the first value of the array
   if (!!start) {
     let total = start;
-  }
-  
-  else {
-    let total = array[0];
-  }
-  
-  // Iterator setup
-    if (!!start) {
     let i = 0;
   }
   
   else {
+    let total = array[0];
     let i = 1;
   }
   
