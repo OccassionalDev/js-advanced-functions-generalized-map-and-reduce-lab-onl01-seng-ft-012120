@@ -11,5 +11,9 @@ function map(array, func) {
 } 
 
 function reduce(array, start=0) {
+  let total;
   
+  
+  
+  return total;
 }
