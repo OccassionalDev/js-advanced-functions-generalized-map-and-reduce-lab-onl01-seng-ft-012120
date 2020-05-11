@@ -18,7 +18,7 @@ function reduce(array, func, start) {
   
   // Iterate through
   for (let i = (!!start) ? 0 : 1; i < array.length; i++) {
-    total = func(array[i]);
+    total = func(array[i], total);
   }
   
   return total;
