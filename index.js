@@ -10,3 +10,6 @@ function map(array, func) {
   return newArray;
 } 
 
+function reduce(array, start=0) {
+  
+}
