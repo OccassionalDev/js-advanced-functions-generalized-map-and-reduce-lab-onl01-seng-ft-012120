@@ -11,7 +11,9 @@ function map(array, func) {
 } 
 
 function reduce(array, start) {
-  if start
+  if (!!start) {
+    let total = 
+  }
   
   
   
