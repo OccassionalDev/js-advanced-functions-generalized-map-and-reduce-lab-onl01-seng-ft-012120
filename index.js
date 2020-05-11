@@ -10,7 +10,7 @@ function map(array, func) {
   return newArray;
 } 
 
-function reduce(array, start) {
+function reduce(array, func, start) {
   
   // Set up total variable to return
   // If the start is defined, set the total = start, if not, make it the first value of the array
