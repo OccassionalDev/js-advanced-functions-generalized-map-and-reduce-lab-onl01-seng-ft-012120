@@ -15,7 +15,7 @@ function reduce(array, func, start) {
   // Set up total variable to return
   // If the start is defined, set the total = start, if not, make it the first value of the array
   let total = (!!start) ? start : array[0];
-  let i = (!!start) ? 0 : 1
+  let i = (!!start) ? 0 : 1;
   
   // Iterate through
   for (; i < array.length; i++) {
